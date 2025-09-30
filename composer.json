@@ -1,5 +1,5 @@
 {
-  "name": "bala/self-healing-url",
+  "name": "praman-codelab/self-healing-url",
   "description": "Laravel package for self-healing URLs: typo correction, normalization, smart fallback.",
   "keywords": ["laravel", "url", "self-healing", "redirect"],
   "type": "library",
