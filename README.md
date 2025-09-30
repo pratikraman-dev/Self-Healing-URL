@@ -12,8 +12,7 @@ Automatically normalizes URLs and fixes common typos in Laravel.
 ## Installation
 
 ```bash
-composer require bala/self-healing-url
-
+praman-codelab/self-healing-url 
 
 Middleware
 
