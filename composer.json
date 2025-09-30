@@ -4,10 +4,12 @@
   "keywords": ["laravel", "url", "self-healing", "redirect"],
   "type": "library",
   "license": "MIT",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "authors": [
     {
-      "name": "Bala",
-      "email": "youremail@example.com"
+      "name": "Pratik Raman - CodeLab Artisans",
+      "email": "pratiksingh.raman@gmail.com"
     }
   ],
   "require": {
