@@ -1,0 +1,40 @@
+{
+  "name": "bala/self-healing-url",
+  "description": "Laravel package for self-healing URLs: typo correction, normalization, smart fallback.",
+  "keywords": ["laravel", "url", "self-healing", "redirect"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bala",
+      "email": "youremail@example.com"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "illuminate/support": "^10.0|^11.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^8.0",
+    "phpunit/phpunit": "^10.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bala\\SelfHealingUrl\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Bala\\SelfHealingUrl\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Bala\\SelfHealingUrl\\SelfHealingUrlServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
